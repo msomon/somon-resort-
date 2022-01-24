@@ -1,4 +1,4 @@
-body{font-family: 'Poppins', sans-serif;margin: 0px;}
+body{font-family: 'Poppins', sans-serif;margin: 0px; overflow-x: hidden;}
 .plan-button {background: #F496D1; padding: auto; width:200px;align-items:center;
   }
   .background-plus{background: #3F87F5;box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
@@ -16,5 +16,8 @@ body{font-family: 'Poppins', sans-serif;margin: 0px;}
     }
 .person-img{width: 100px;
   height: 100px;}
+
+  .food{border-radius: 10px;width: 546px;
+    height: 364px;}
   .asked{margin-top: 150px;}
   .download{color: white;margin-left:330px;padding:10px;}
