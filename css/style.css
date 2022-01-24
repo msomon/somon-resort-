@@ -16,8 +16,9 @@ body{font-family: 'Poppins', sans-serif;margin: 0px; overflow-x: hidden;}
     }
 .person-img{width: 100px;
   height: 100px;}
-.food-header{color:darkorange;}
-  .food-img{}
+.food-header{color:rgb(54, 170, 18);}
+  
     .food-info{color:rgb(10, 58, 18);}
   .asked{margin-top: 100px;}
-  .download{color: white;margin-left:330px;padding:10px;}
+  .download{color: white;margin-left:310px;padding:10px;
+  
