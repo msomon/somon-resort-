@@ -21,4 +21,9 @@ body{font-family: 'Poppins', sans-serif;margin: 0px; overflow-x: hidden;}
     .food-info{color:rgb(10, 58, 18);}
   .asked{margin-top: 100px;}
   .download{color: white;margin-left:310px;padding:10px;
-  
+
+   @media screen and (max-width:576px) {
+     .carousel-item img{width:100%;
+    height:500px;}
+     
+   }
