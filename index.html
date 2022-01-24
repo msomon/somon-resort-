@@ -37,7 +37,7 @@
   </header>
   <!-- main section -->
   <main>
-    <section class="container">
+    <section class="container mb-5">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -83,18 +83,39 @@
     </section>
     
 
-    <!-- -----toast---- -->
+    <!-- -----using offcanvus---- -->
 
-    <section height="1170px" class="mt-2 me-5  justify-content-end">
-      <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-          <strong class="me-auto"> <i class="fas fa-gift"> Add Food In Card </i></strong>
-          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    <section class="container">
+      <a class="btn btn-danger" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        *Categories Of Our Food
+        Tapp the button *
+      </a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"> Menu </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="toast-body">
-          Hlw E! You can Add Favourite Food In Your Card....
+        <div class="offcanvas-body">
+          <div>
+            You can Visit and Order the Item Anytime @ 
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Select-Item
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Fish</a></li>
+              <li><a class="dropdown-item" href="#">Burger</a></li>
+              <li><a class="dropdown-item" href="#">Chicken</a></li>
+              <li><a class="dropdown-item" href="#">vagetable</a></li>
+              <li><a class="dropdown-item" href="#">Biriani</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </div>  
+    </section>
+
+   
 <!-- ----package hading-- -->
 
 <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
@@ -350,14 +371,14 @@
     </section>
   </main>
   <footer class="bg-dark">
-<div class="d-flex justify-content-between">
-<div class="col-lg-6 col-12 m-auto">
+<div class="d-flex">
+<div class="col-lg-6 col-1 m-auto">
 <p class=" download ">© 2020 bike. All rights reserved</p>
 </div>
-<div class="col-lg-6 col-12  download ">
+<div class="col-lg-6 col-1 download ">
 <h4>Get the App</h4>
-<div class="footer">
-  <div class="">
+<div class="footer-img">
+  <div>
     <a href="https://play.google.com/store/apps"><img width="136px" class="footer-img" src="images\get-it-on-google-play.png" alt=""></a>
   </div>
   <div>
